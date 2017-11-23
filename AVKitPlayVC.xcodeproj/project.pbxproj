@@ -12,6 +12,8 @@
 		F4A790131FB45E8B00741A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A790111FB45E8B00741A9B /* Main.storyboard */; };
 		F4A790151FB45E8B00741A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A790141FB45E8B00741A9B /* Assets.xcassets */; };
 		F4A790181FB45E8B00741A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A790161FB45E8B00741A9B /* LaunchScreen.storyboard */; };
+		F4A790201FB465A200741A9B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A7901F1FB465A200741A9B /* MyViewController.swift */; };
+		F4A790231FB465C800741A9B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A790221FB465C800741A9B /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F4A790141FB45E8B00741A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A790171FB45E8B00741A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4A790191FB45E8B00741A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A7901F1FB465A200741A9B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		F4A790221FB465C800741A9B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A790231FB465C800741A9B /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				F4A7900C1FB45E8B00741A9B /* AVKitPlayVC */,
 				F4A7900B1FB45E8B00741A9B /* Products */,
+				F4A790211FB465C800741A9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				F4A790141FB45E8B00741A9B /* Assets.xcassets */,
 				F4A790161FB45E8B00741A9B /* LaunchScreen.storyboard */,
 				F4A790191FB45E8B00741A9B /* Info.plist */,
+				F4A7901F1FB465A200741A9B /* MyViewController.swift */,
 			);
 			path = AVKitPlayVC;
+			sourceTree = "<group>";
+		};
+		F4A790211FB465C800741A9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A790221FB465C800741A9B /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A790101FB45E8B00741A9B /* ViewController.swift in Sources */,
+				F4A790201FB465A200741A9B /* MyViewController.swift in Sources */,
 				F4A7900E1FB45E8B00741A9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
